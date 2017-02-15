@@ -3,10 +3,54 @@
   <head>
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" type="text/css">
     <link href="css/madLib.css" rel="stylesheet" type="text/css">
-    <title>A fantastical adventure</title>
+    <title>Complete the form</title>
   </head>
   <body>
     <div class="container">
+      <h1>Complete the form</h1>
+      <div>
+        <form id="formOne">
+          <div class="form-group">
+            <label for="person1">Enter your name</label>
+            <input id="person1" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="street">Enter your street</label>
+            <input id="street" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="city">Enter your city</label>
+            <input id="city" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="state">Enter your state</label>
+            <input id="state" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="zip">Enter your zipcode</label>
+            <input id="zip" class="form-control" type="text">
+          </div>
+          <button type="submit" class="btn">Generate Letter</button>
+        </form>
+        <div class="letter">
+          <h3>Feb 15, 2017</h3>
+          <p><span class="street"></span></p>
+          <p><span class="city"></span></p>
+          <p><span class="state"></span>, <span class="zip"></span></p>
+          <p>Dear <span class="name"></span>,</p>
+          <p class="letter-body">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sed elit at ligula feugiat scelerisque vel elementum risus. Praesent porta metus varius nisi fermentum, in convallis enim tempus. Nullam molestie dui diam, et fermentum tellus feugiat vel. Cras non congue dolor. Duis ac elit ac lacus malesuada condimentum. In hac habitasse platea dictumst. Aliquam vitae ipsum risus. Quisque tincidunt molestie sem, non laoreet magna ultrices ac.
+          </p>
+          <p class="letter-body">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sed elit at ligula feugiat scelerisque vel elementum risus. Praesent porta metus varius nisi fermentum, in convallis enim tempus. Nullam molestie dui diam, et fermentum tellus feugiat vel. Cras non congue dolor. Duis ac elit ac lacus malesuada condimentum. In hac habitasse platea dictumst. Aliquam vitae ipsum risus. Quisque tincidunt molestie sem, non laoreet magna ultrices ac.
+          </p>
+          <p class="letter-body">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sed elit at ligula feugiat scelerisque vel elementum risus. Praesent porta metus varius nisi fermentum, in convallis enim tempus. Nullam molestie dui diam, et fermentum tellus feugiat vel. Cras non congue dolor. Duis ac elit ac lacus malesuada condimentum. In hac habitasse platea dictumst. Aliquam vitae ipsum risus. Quisque tincidunt molestie sem, non laoreet magna ultrices ac.
+          </p>
+          <p>Sincerely,</p>
+          <p class="signature">Patty Brown</p>
+        </div>
+      </div>
     </div>
     <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="   crossorigin="anonymous"></script>
     <script src="js/madLib.js"></script>

@@ -12,7 +12,7 @@ $(document).ready(function() {
     $(".state").text(stateInput);
     $(".zip").text(zipInput);
 
-  //  $("#formOne").hide();
+    $("#formOne").hide();
     $("#letter").show();
     event.preventDefault();
   });

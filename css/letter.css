@@ -1,3 +1,26 @@
 .letter {
   display: none;
+  font-size: 20px;
+  margin-top: 40px;
+}
+
+body {
+  font-family: serif;
+}
+
+.signature {
+  font-family: cursive;
+  padding-top: 60px;
+}
+
+.letter-body {
+  text-align: justify;
+}
+
+.date {
+  padding-bottom: 40px;
+}
+
+.address {
+  padding-bottom: 80px;
 }

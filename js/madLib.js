@@ -7,8 +7,14 @@ $(document).ready(function(){
     var verbInput = $("input#verb").val();
     var nounInput =$("input#noun").val();
 
-    $("#story.person1").txt(person1Input);
+    $(".person1").text(person1Input);
+    $(".person2").text(person2Input);
+    $(".animal").text(animalInput);
+    $(".exclamation").text(exclamationInput);
+    $("verb").text(verbInput);
+    $("noun").text(nounInput);
 
+    
     event.preventDefault();
   });
 

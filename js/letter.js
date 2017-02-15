@@ -1,6 +1,6 @@
 $(document).ready(function() {
   $("#formOne").submit(function() {
-    var personInput = $("#person1").val();
+    var personInput = $("input#person1").val();
     var streetInput = $("#street").val();
     var cityInput = $("#city").val();
     var stateInput = $("#state").val();
@@ -12,7 +12,7 @@ $(document).ready(function() {
     $(".state").text(stateInput);
     $(".zip").text(zipInput);
 
-    $("#formOne").hide();
+  //  $("#formOne").hide();
     $("#letter").show();
     event.preventDefault();
   });

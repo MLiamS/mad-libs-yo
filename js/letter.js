@@ -1,10 +1,10 @@
 $(document).ready(function() {
   $("#formOne").submit(function() {
     var personInput = $("input#person1").val();
-    var streetInput = $("#street").val();
-    var cityInput = $("#city").val();
-    var stateInput = $("#state").val();
-    var zipInput = $("#zip").val();
+    var streetInput = $("input#street").val();
+    var cityInput = $("input#city").val();
+    var stateInput = $("input#state").val();
+    var zipInput = $("input#zip").val();
 
     $(".name").text(personInput);
     $(".street").text(streetInput);

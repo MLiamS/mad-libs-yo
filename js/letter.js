@@ -13,7 +13,7 @@ $(document).ready(function() {
     $(".zip").text(zipInput);
 
     $("#formOne, h1").hide();
-    $("#letter").show();
+    $(".letter").show();
     event.preventDefault();
   });
 });

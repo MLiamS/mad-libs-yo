@@ -4,4 +4,7 @@ $(document).ready(function() {
   var cityInput = $("#city").val();
   var stateInput = $("#state").val();
   var zipInput = $("#zip").val();
-})
+
+  $("#letter").show();
+  event.preventDefault();
+});

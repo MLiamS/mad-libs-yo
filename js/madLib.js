@@ -11,8 +11,8 @@ $(document).ready(function(){
     $(".person2").text(person2Input);
     $(".animal").text(animalInput);
     $(".exclamation").text(exclamationInput);
-    $("verb").text(verbInput);
-    $("noun").text(nounInput);
+    $(".verb").text(verbInput);
+    $(".noun").text(nounInput);
 
     $("#story").show();
 

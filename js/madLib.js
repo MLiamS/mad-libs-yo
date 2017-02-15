@@ -6,5 +6,10 @@ $(document).ready(function(){
     var exclamationInput = $("input#exclamation").val();
     var verbInput = $("input#verb").val();
     var nounInput =$("input#noun").val();
+
+    $("#story.person1").txt(person1Input);
+
+    event.preventDefault();
   });
+
 });
